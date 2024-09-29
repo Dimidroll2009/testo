@@ -27,6 +27,16 @@
           "src/main/resources/assets/testo/models/item/testo_bucket.json"
         ]
       }
+    },
+    {
+      "name": "TestoZle",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testo_zle",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -40,9 +50,13 @@
   "language_map": {
     "en_us": {
       "item_group.testo.maintab": "Тесто",
+      "item.minecraft.potion.effect.testo_zle": "Potion of Testo",
       "item.testo.testo_bucket": "Ведро теста",
       "block.testo.testo": "Тесто",
-      "fluid.testo.testo": "Тесто"
+      "item.minecraft.splash_potion.effect.testo_zle": "Splash Potion of Testo Zle",
+      "item.minecraft.lingering_potion.effect.testo_zle": "Lingering Potion of Testo Zle",
+      "fluid.testo.testo": "Тесто",
+      "item.minecraft.tipped_arrow.effect.testo_zle": "Arrow of Testo Zle"
     }
   },
   "foldersRoot": {

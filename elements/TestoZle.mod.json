@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Testo",
+    "splashName": "Splash Potion of Testo Zle",
+    "lingeringName": "Lingering Potion of Testo Zle",
+    "arrowName": "Arrow of Testo Zle",
+    "effects": [
+      {
+        "effect": {
+          "value": "SATURATION"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 20,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

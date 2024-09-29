@@ -1,6 +1,7 @@
 package testo;
 
 import testo.init.TestoModTabs;
+import testo.init.TestoModPotions;
 import testo.init.TestoModItems;
 import testo.init.TestoModFluids;
 import testo.init.TestoModFluidTypes;
@@ -48,6 +49,8 @@ public class TestoMod {
 		TestoModItems.REGISTRY.register(bus);
 
 		TestoModTabs.REGISTRY.register(bus);
+
+		TestoModPotions.REGISTRY.register(bus);
 
 		TestoModFluids.REGISTRY.register(bus);
 		TestoModFluidTypes.REGISTRY.register(bus);
